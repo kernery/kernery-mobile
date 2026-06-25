@@ -1,9 +1,5 @@
 <div align="center">
-<<<<<<< HEAD
-  <img src="https://github.com/kernery/.github/raw/main/kernery-logo-full.jpeg" width="50%" alt="Logo Kernery" style="max-width: 100%;">
-=======
   <img src="https://github.com/Kernery/.github/raw/main/kernery-logo-full.jpeg" width="50%" alt="Kernery logo" style="max-width: 100%;">
->>>>>>> 10e2e5b (mark subprojects as dirty to indicate uncommitted changes)
 </div>
 
 <div align="center">
