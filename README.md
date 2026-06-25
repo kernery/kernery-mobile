@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/.github/art/kernery-logo-full-no-bg.png" width="50%" alt="Logo Kernery" style="max-width: 100%;">
+  <img src="https://github.com/kernery/.github/raw/main/kernery-logo-full.jpeg" width="50%" alt="Logo Kernery" style="max-width: 100%;">
 </div>
 
 <div align="center">
