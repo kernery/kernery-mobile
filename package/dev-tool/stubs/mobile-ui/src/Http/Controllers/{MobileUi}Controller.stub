@@ -1,0 +1,9 @@
+<?php
+
+namespace MobileUi\{MobileUi}\Http\Controllers;
+
+use Kernery\MobileUi\Http\Controllers\PublicController;
+
+class {MobileUi}Controller extends PublicController
+{
+}

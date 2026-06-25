@@ -1,0 +1,8 @@
+{
+    "id": "project/{mobileUi}",
+    "name": "{MobileUi}",
+    "namespace": "MobileUi\\{MobileUi}\\",
+    "author": "{MobileUi} Team",
+    "version": "1.0.0",
+    "required_libs": []
+}

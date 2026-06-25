@@ -1,0 +1,36 @@
+{
+    "name": "kernery/dev-tool",
+    "description": "Devtool module for kernery mobile to register CLI commands",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jade Sass"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "kernery/mobile": "*@dev"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Kernery\\DevTool\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kernery\\DevTool\\Providers\\DevToolServiceProvider"
+            ]
+        },
+        "aliases": {
+
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
+}

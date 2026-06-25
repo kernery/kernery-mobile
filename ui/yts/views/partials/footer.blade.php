@@ -1,0 +1,3 @@
+        {!! MobileUi::footer() !!}
+    </body>
+</html>
