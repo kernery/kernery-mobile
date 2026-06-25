@@ -72,7 +72,7 @@ Create a new folder in your Laravel directory:
 
 mkdir mobile
 cd mobile
-git clone https://github.com/
+git clone https://github.com/kernery/kernery-mobile
 ```
 
 ### Step 3: Require Kernery Mobile and Install Dependencies via Composer
