@@ -2,7 +2,9 @@
   <img src="/.github/art/kernery-logo-full-no-bg.png" width="50%" alt="Logo Kernery" style="max-width: 100%;">
 </div>
 
+<div align="center">
 <h3><a href="#requirements">Requirements</a> | <a href="#installation">Installation</a> | <a href="#quick-start">Quick Start</a> | <a href="#project-structure">Project Structure</a> </h3>
+</div>
 
 ---
 
