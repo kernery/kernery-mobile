@@ -27,7 +27,7 @@ Before installing Kernery Mobile, ensure your development environment meets thes
 
 | Requirement | Version | Notes |
 |-------------|---------|-------|
-| **PHP** | >= 8.2.0 | Required by updater configuration |
+| **PHP** | >= 8.3.0 | Required by updater configuration |
 | **Composer** | ^2.0+ | For dependency management |
 | **XAMPP** | Latest | Recommended for PHP development |
 | **cURL extension** | enabled | PHP extension required |
