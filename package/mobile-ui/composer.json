@@ -1,0 +1,33 @@
+{
+    "name": "kernery/mobile-ui",
+    "description": "Asset dependency for kernery core which helps to keep environment assets tidy and accessible.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kernery"
+        }
+    ],
+    "require": {
+        "kernery/mobile": "*@dev",
+        "inertiajs/inertia-laravel": "3.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Kernery\\MobileUi\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kernery\\MobileUi\\Providers\\MobileUiServiceProvider",
+                "Kernery\\MobileUi\\Providers\\RouteServiceProvider"
+            ]
+        },
+        "aliases": {
+            "MobileUi": "Kernery\\MobileUi\\Facades\\MobileUi",
+            "MobileUiManager": "Kernery\\MobileUi\\Facades\\Manager"
+        }
+    }
+}

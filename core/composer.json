@@ -1,0 +1,73 @@
+{
+    "name": "kernery/mobile",
+    "description": "Lightweight battery-included core for building mobile apps with NativePHP",
+    "keywords": [
+        "laravel",
+        "kernery",
+        "php",
+        "mobile apps",
+        "laravel mobile apps",
+        "php mobile apps"
+    ],
+    "homepage": "https://docs.kernery.com",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jade Sass",
+            "email": "contact-jade@kernery.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ext-curl": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "nativephp/mobile": "^3.0",
+        "wikimedia/composer-merge-plugin": "^2.1.0",
+        "tightenco/ziggy": "2.5.3",
+        "intervention/image": "^3.4",
+        "kernery/assets": "*@dev",
+        "kernery/mobile-ui": "*@dev",
+        "kernery/dev-tool": "*@dev"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.27"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kernery\\Main\\": "main/src",
+            "Tightenco\\Ziggy\\": "main/src/Ziggy",
+            "Kernery\\Support\\": "support/src",
+            "Kernery\\Setting\\": "setting/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kernery\\Main\\Providers\\MainServiceProvider",
+                "Kernery\\Main\\Providers\\EventServiceProvider",
+                "Kernery\\Support\\Providers\\SupportServiceProvider"
+            ]
+        },
+        "aliases": {
+                "Action": "Kernery\\Main\\Facades\\Action",
+                "AppAppearance": "Kernery\\Main\\Facades\\AppAppearance",
+                "AppHelper": "Kernery\\Main\\Facades\\AppHelper",
+                "Assets": "Kernery\\Main\\Facades\\Assets",
+                "MainHelper": "Kernery\\Main\\Facades\\MainHelper",
+                "MiscHelper": "Kernery\\Main\\Facades\\MiscHelper",
+                "Filter": "Kernery\\Main\\Facades\\Filter",
+                "Html": "Kernery\\Main\\Facades\\Html",
+                "MacroableModels": "Kernery\\Main\\Facades\\MacroableModels",
+                "PageTitle": "Kernery\\Main\\Facades\\PageTitle",
+                "Setting": "Kernery\\Setting\\Facades\\SecureSetting"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "wikimedia/composer-merge-plugin": true
+        }
+    }
+}
