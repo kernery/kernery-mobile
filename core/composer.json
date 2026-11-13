@@ -24,7 +24,7 @@
         "ext-curl": "*",
         "ext-gd": "*",
         "ext-json": "*",
-        "nativephp/mobile": "~4.0.0", 
+        "nativephp/mobile": "^4.7", 
         "wikimedia/composer-merge-plugin": "^2.1.0",
         "tightenco/ziggy": "2.5.3",
         "intervention/image": "^3.4",

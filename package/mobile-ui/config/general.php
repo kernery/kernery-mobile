@@ -71,5 +71,5 @@ return [
         'default' => 'Default',
     ],
 
-    'apply_safe_area_in_mobile' => env('APPLY_SAFE_AREA_IN_MOBILE', false),
+    'apply_safe_area_in_mobile' => env('APPLY_SAFE_AREA_IN_MOBILE', true),
 ];
